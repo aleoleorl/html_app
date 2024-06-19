@@ -1,0 +1,56 @@
+#color 
+{
+    transition-property: background-color;
+    transition-duration: 3s;
+}
+
+.block1 
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    border-radius: 50%;
+    background: blue;
+}
+
+.commonField
+{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border:4px solid rgb(206, 230, 195);
+    border-radius: 5px;
+    background-color: bisque;
+}
+.upperField
+{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.btn1
+{
+    border-radius: 7px;
+    height: 30px;
+    width: 100px;
+    border-color: darkgreen;
+    background-color:honeydew;
+    font-weight: 1000; 
+}
+.btn2
+{
+    border-radius: 7px;
+    height: 30px;
+    border-color:darkgreen;
+    background-color:aquamarine;
+    font-weight: 1000; 
+}
+.lbl1
+{
+    font-weight: 1000; 
+}
